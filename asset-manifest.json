@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b2896f8.css",
-    "main.js": "/static/js/main.bee2018f.js",
-    "static/js/27.dd8d1263.chunk.js": "/static/js/27.dd8d1263.chunk.js",
-    "static/media/smallMorBargigSig.png": "/static/media/smallMorBargigSig.1f73e1839e79d858262f.png",
-    "index.html": "/index.html"
+    "main.css": "/CV-mfe-micro-front-end/static/css/main.4cab14ff.css",
+    "main.js": "/CV-mfe-micro-front-end/static/js/main.d6afb400.js",
+    "static/js/27.dd8d1263.chunk.js": "/CV-mfe-micro-front-end/static/js/27.dd8d1263.chunk.js",
+    "static/media/smallMorBargigSig.png": "/CV-mfe-micro-front-end/static/media/smallMorBargigSig.1f73e1839e79d858262f.png",
+    "index.html": "/CV-mfe-micro-front-end/index.html"
   },
   "entrypoints": [
-    "static/css/main.7b2896f8.css",
-    "static/js/main.bee2018f.js"
+    "static/css/main.4cab14ff.css",
+    "static/js/main.d6afb400.js"
   ]
 }
