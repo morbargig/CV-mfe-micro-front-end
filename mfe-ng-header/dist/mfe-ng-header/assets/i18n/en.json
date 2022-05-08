@@ -1,0 +1,10 @@
+{
+    "App": {
+        "CVTile": "Mor Bargig CV",
+        "Language": {
+            "linkedinFile": "Linkedin",
+            "hebrewFile": "Hebrew",
+            "englishFile": "English"
+        }
+    }
+}
