@@ -2,6 +2,7 @@
   "name": "mfe-react-host",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://morbargig.github.io/CV-mfe-micro-front-end",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -20,7 +21,7 @@
   },
   "scripts": {
     "start": "GENERATE_SOURCEMAP=false react-scripts start",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",

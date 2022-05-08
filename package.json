@@ -8,6 +8,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "",
+    "install": "npm-run-all build:*",
+    "install:mfe-ng-content": "cd mfe-ng-content && npm run install",
+    "install:mfe-ng-header": "cd mfe-ng-header && npm run install",
+    "install:mfe-ng-menu": "cd mfe-ng-menu && npm run install",
+    "install:mfe-react-host": "cd mfe-react-host && npm run install",
     "serve": "cd mfe-react-host && npm run start",
     "serve:mfe-ng-content": "cd mfe-ng-content && npm run start",
     "serve:mfe-ng-header": "cd mfe-ng-header && npm run start",
