@@ -1,0 +1,11 @@
+<div class="header-background">
+  <h2 class="cv-title text-to-center" style="margin: 0;" translate>
+    App.CVTile
+  </h2>
+  <div style="opacity: 1;" class="full-width font-size-16" style="display: flex; justify-content: start;">
+    <button *ngFor="let btn of buttonsText" [disabled]="btn.name === pdf?.language ? true : null"
+      [class]="btn.name === pdf?.language ? 'disabled' : null" [name]="btn.name" (click)="getPDF(btn)" translate>
+      {{ ('App.Language.' + btn?.name) }}
+    </button>
+  </div>
+</div>

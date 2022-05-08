@@ -1,0 +1,17 @@
+{
+    "App": {
+        "UploadImage": "העלה קובץ",
+        "MorBargigBrand": "מותג מור ברגיג",
+        "Menu": {
+            "Menu": "תפריט",
+            "Pdf": "קובץ קו\"ח",
+            "MyWebSite": "האתר שלי",
+            "GitHub": "גיטהאב",
+            "LinkedIn": "לינקדין",
+            "Contact": "צור קשר",
+            "Email": "מייל",
+            "IsAdmin": "מנהל ?",
+            "Portfolio": "תיק עבודות"
+        }
+    }
+}

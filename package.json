@@ -1,0 +1,33 @@
+{
+  "name": "cv-mf",
+  "version": "1.0.0",
+  "description": "CV website developed by mor bargig with microfrontend",
+  "main": "index.js",
+  "private": true,
+  "homepage": "https://morbargig.github.io/CV-mfe-micro-front-end",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "",
+    "serve": "cd mfe-react-host && npm run start",
+    "serve:mfe-ng-content": "cd mfe-ng-content && npm run start",
+    "serve:mfe-ng-header": "cd mfe-ng-header && npm run start",
+    "serve:mfe-ng-menu": "cd mfe-ng-menu && npm run start",
+    "build": "npm-run-all build:*",
+    "build:mfe-ng-content": "cd mfe-ng-content && npm run build && cd .. && copyfiles './mfe-ng-content/dist/mfe-ng-content/main*js' ./mfe-react-host/public",
+    "build:mfe-ng-header": "cd mfe-ng-header && npm run build && cd .. && copyfiles './mfe-ng-header/dist/mfe-ng-header/main*js' ./mfe-react-host/public",
+    "build:mfe-ng-menu": "cd mfe-ng-menu && npm run build && cd .. && copyfiles './mfe-ng-menu/dist/mfe-ng-menu/main*js' ./mfe-react-host/public",
+    "watch": "npm-run-all -p watch:*",
+    "watch:mfe-ng-content": "cd mfe-ng-content && npm run watch",
+    "watch:mfe-ng-header": "cd mfe-ng-header && npm run watch",
+    "watch:mfe-ng-menu": "cd mfe-ng-menu && npm run watch",
+    "predeploy": "npm run build",
+    "deploy": "cd mfe-react-host && npm run deploy",
+    "auth-push": "git add . && git commit -m \"`echo \"Auto commit by $(git config user.name) at $(date +%Y-%m-%dT%H:%M%z)\"`\"&& git push origin master"
+  },
+  "author": "Mor Bargig",
+  "license": "ISC",
+  "dependencies": {
+    "copyfiles": "^2.4.1",
+    "npm-run-all": "^4.1.5"
+  }
+}

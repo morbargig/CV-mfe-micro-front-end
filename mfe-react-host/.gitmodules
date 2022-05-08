@@ -1,0 +1,3 @@
+[submodule "src/config/firebaseConfig"]
+	path = src/config/firebaseConfig
+	url = https://github.com/morbargig/firebase-config.git

@@ -1,0 +1,26 @@
+.host {
+  background: linear-gradient(60deg, #ffffff00, #000000);
+}
+
+
+.host {
+  overflow: hidden;
+  position: relative;
+}
+
+.app-bg {
+  opacity: .6;
+  position: absolute;
+  background: url('./assets/smallMorBargigSig.png');
+  background-position: center;
+  background-size: 0.3125rem;
+  height: 100% !important;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.app-content {
+  position: relative;
+}

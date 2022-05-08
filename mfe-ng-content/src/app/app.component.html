@@ -1,0 +1,13 @@
+<ng-container *ngIf="url as urlVal">
+  <ng-container *ngIf="isMobileDevice else desktopPdf">
+    <iframe title="pdf" id="pdf" name="pdf" width="100%" [attr.height]="1000 + 'px'" [attr.src]="urlVal" frameBorder=0
+      allow="fullscreen">
+      <p translate> App.IframeNotSupported</p>
+    </iframe>
+  </ng-container>
+  <ng-template #desktopPdf>
+    <embed id="pdf" name="pdf" type="application/pdf" [attr.src]="urlVal" width="100%" [attr.height]="1000 + 'px'"
+      alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html" background-color="0xFF525659"
+      full-frame="" internalinstanceid="22" title="Mor Bargig" />
+  </ng-template>
+</ng-container>

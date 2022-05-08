@@ -1,0 +1,77 @@
+
+
+button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+  }
+  
+  
+  button:hover {
+    box-shadow: 0 0.75rem 1rem 0 rgba(0, 0, 0, 0.24), 0 1.0625rem 3.125rem 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .text-to-center {
+    text-align: center
+  }
+  $Desktop: '(min-width:calc(100vh))';
+  $Mobile: '(max-width:calc(100vh))';
+  @media #{$Mobile} {
+    button {
+      font-size: 0.5rem;
+      padding: 0.4rem 1rem;
+      margin: 0.25rem 0.125rem;
+    }
+  
+    .topnav {
+      a {
+        padding: 0.25rem 0.3rem;
+        font-size: 0.55rem;
+      }
+  
+      button {
+        font-size: 0.55rem;
+      }
+    }
+  
+    .app-bg {
+      background-size: 0.3125rem;
+    }
+  }
+  
+  @media #{$Desktop} {
+    button {
+      font-size: 2rem;
+      padding: 1rem 2.25rem;
+      margin: 0.5rem 0.25rem;
+    }
+  
+    .topnav {
+      a {
+        padding: 1rem 1.25rem;
+        font-size: 2rem;
+      }
+    }
+  
+    .cv-title {
+      font-size: 3.25rem;
+    }
+  
+    .app-bg {
+      background-size: 0.6rem;
+    }
+  }
+  

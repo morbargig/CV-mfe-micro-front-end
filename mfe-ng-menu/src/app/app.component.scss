@@ -1,0 +1,83 @@
+.topnav {
+    width: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .topnav a.Admin {
+    background-color: black
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #myLinks {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  $Desktop: '(min-width:calc(100vh))';
+  $Mobile: '(max-width:calc(100vh))';
+  @media #{$Mobile} {
+    button {
+      font-size: 0.5rem;
+      padding: 0.4rem 1rem;
+      margin: 0.25rem 0.125rem;
+    }
+  
+    .topnav {
+      a {
+        padding: 0.25rem 0.3rem;
+        font-size: 0.55rem;
+      }
+  
+      button {
+        font-size: 0.55rem;
+      }
+    }
+  
+    .app-bg {
+      background-size: 0.3125rem;
+    }
+  }
+  
+  @media #{$Desktop} {
+    button {
+      font-size: 2rem;
+      padding: 1rem 2.25rem;
+      margin: 0.5rem 0.25rem;
+    }
+  
+    .topnav {
+      a {
+        padding: 1rem 1.25rem;
+        font-size: 2rem;
+      }
+    }
+  
+    .cv-title {
+      font-size: 3.25rem;
+    }
+  
+    .app-bg {
+      background-size: 0.6rem;
+    }
+  }

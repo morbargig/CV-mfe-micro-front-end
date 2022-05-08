@@ -1,0 +1,17 @@
+{
+    "App": {
+        "UploadImage": "Upload file",
+        "MorBargigBrand": "Mor Bargig Brand",
+        "Menu": {
+            "Menu": "Menu",
+            "Pdf": "Pdf",
+            "MyWebSite": "My Web Site",
+            "GitHub": "GitHub",
+            "LinkedIn": "LinkedIn",
+            "Contact": "Contact",
+            "Email": "Email",
+            "IsAdmin": "Admin ?",
+            "Portfolio": "Portfolio"
+        }
+    }
+}

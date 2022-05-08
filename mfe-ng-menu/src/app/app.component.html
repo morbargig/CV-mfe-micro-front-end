@@ -1,0 +1,31 @@
+<div class="topnav" style="opacity: 1;">
+  <a (click)="openMenu = !openMenu" class="active" translate>App.Menu.MenuTitle</a>
+  <div *ngIf="openMenu;else closeMenu" id="myLinks" class="full-width">
+    <div class="links-container" style="height: 100%; display: flex; align-items: center;">
+      <a [href]="url" target="blank" translate>App.Menu.Pdf</a>
+      <a href="https://5d60919cef31b.site123.me/" target="blank" translate>App.Menu.MyWebSite</a>
+      <a href="https://github.com/morbargig" target="blank" translate>App.Menu.GitHub</a>
+      <a href="https://www.linkedin.com/in/mor-bargig-744854182/" target="blank" translate>App.Menu.LinkedIn</a>
+      <a href="tel:+972 52-861-2379" target="blank" translate> App.Menu.Contact </a>
+      <a href="mailto:mobargig@gmail.com" target="blank" translate> App.Menu.Email</a>
+    </div>
+    <a *ngIf="!isAdmin else admin" (click)="adminLogin()"
+      style="background-color: black; margin: 0; height: 100%; display: flex; align-items: center;" class="Admin"
+      translate>App.Menu.IsAdmin</a>
+  </div>
+  <ng-template #closeMenu class="full-width">
+    <a class="Portfolio" href="https://morbargig.github.io/" target="blank" translate>
+      App.Menu.Portfolio <span></span>
+      <img class="Portfolio-img" src="./mfe-ng-menu/dist/mfe-ng-menu/assets/smallMorBargigSig.png"
+        [alt]="'App.MorBargigBrand' | translate"
+        [style]="'border-radius: 50%; margin-left: 0.25em height: 1em; width: 1em; vertical-align: text-bottom;'" />
+    </a>
+  </ng-template>
+</div>
+
+<ng-template #admin>
+  <button type="button" class="admin" (click)="fileInput.click()">
+    <span translate> App.UploadImage</span>
+    <input #fileInput type="file" (change)="handleImage($event)" style="display:none;" />
+  </button>
+</ng-template>
