@@ -33,4 +33,4 @@ Deploy
 npm run deploy
 ```
 use this command to deploy project
-*** jnjnj ***
+*** make sure to update to your github repo url for case github-pages ***
