@@ -6,9 +6,9 @@ It's a micro front end application
 The host of the app base on React 
 And the menu header content are Angular applications
 
-![Diagram](https://github.com/morbargig/CV-mfe-micro-front-end/blob/main/diagram.png)
+![Diagram](https://github.com/morbargig/CV-mfe-micro-front-end/blob/main/diagram.drawio.png)
 <br>
-<a href="https://app.diagrams.net/#Hmorbargig%2FCV-mfe-micro-front-end%2Fmain%2Fdiagram.png" target="_blank" >Edit</a>
+<a href="https://app.diagrams.net/#Hmorbargig%2FCV-mfe-micro-front-end%2Fmain%2Fdiagram.drawio.png" target="_blank" >Edit</a>
 
 Install
 
