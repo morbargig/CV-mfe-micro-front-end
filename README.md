@@ -7,6 +7,8 @@ The host of the app base on React
 And the menu header content are Angular applications
 
 <img width="833" alt="image" src="https://user-images.githubusercontent.com/51287453/182677613-498d9335-ea2f-4f4a-9fa6-fd7cfde434e9.png">
+![Diagram](https://app.diagrams.net/#Hmorbargig%2FCV-mfe-micro-front-end%2Fmain%2Farchitecture.dio)
+<a href="http://jgraph.github.io/drawio-github/edit-diagram.html?repo=drawio-github&path=diagram.png" target="_blank">Edit</a> | <a href="https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-github%2Fmaster%2Fdiagram.png" target="_blank">Edit As New</a> | <a href="https://app.diagrams.net/#Hjgraph%2Fdrawio-github%2Fmaster%2Fdiagram.png" target="_blank">Edit in diagrams.net</a>
 
 edit https://app.diagrams.net/#Hmorbargig%2FCV-mfe-micro-front-end%2Fmain%2Farchitecture.dio
 
