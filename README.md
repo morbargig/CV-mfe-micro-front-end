@@ -10,6 +10,36 @@ And the menu header content are Angular applications
 <br>
 <a href="https://app.diagrams.net/#Hmorbargig%2FCV-mfe-micro-front-end%2Fmain%2Fdiagram.drawio.svg" target="_blank" >Edit</a>
 
+
+Auto commit by mor bargig at 2022-05-09T00:33+0300
+3 months ago
+
+Auto commit by mor bargig at 2022-05-09T00:33+0300
+3 months ago
+
+Auto commit by mor bargig at 2022-05-09T00:33+0300
+3 months ago
+
+Auto commit by mor bargig at 2022-05-09T00:33+0300
+3 months ago
+
+
+```bash
+mfe-react-host
+   |-- package.json
+   |-- src
+mfe-ng-header
+   |-- package.json
+   |-- src
+mfe-ng-menu
+   |-- package.json
+   |-- src
+mfe-ng-content
+   |-- package.json
+   |-- src
+package.json
+```
+
 Install
 
 ```bash
