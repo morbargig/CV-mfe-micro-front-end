@@ -9,8 +9,6 @@ And the menu header content are Angular applications
 ![Diagram](https://github.com/morbargig/CV-mfe-micro-front-end/blob/main/diagram.drawio.svg)
 <br>
 <a href="https://app.diagrams.net/#Hmorbargig%2FCV-mfe-micro-front-end%2Fmain%2Fdiagram.drawio.svg" target="_blank" >Edit</a>
-<a href="https://app.diagrams.net/#Hmorbargig%2FCV-mfe-micro-front-end%2Fmain%2Fdiagram.drawio.svg" target="_blank" style="background-color: white; padding: 10px 20px; border: 1px solid black; border-radius: 5px; text-decoration: none; color: black;">Edit</a>
-
 
 ## Repo structure
 ### Micro FrontEnd project base tree
